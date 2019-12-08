@@ -4,7 +4,7 @@
 //     return(
 //         <div id="form-content" className="row">
 //             <div className="col-md-8 order-md-1">
-//                 <h4 className="mb-3">Connexion</h4>
+//                 <h4 className="mb-3">OldConnexion</h4>
 //                 <form
 //                     method="POST"
 //                     id="connexion-form"
@@ -48,7 +48,7 @@
 //                         className="btn btn-primary btn-lg btn-block"
 //                         type="submit"
 //                     >
-//                         Connexion
+//                         OldConnexion
 //                     </button>
 //
 //                 </form>

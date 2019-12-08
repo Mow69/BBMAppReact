@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Logo from "./Logo";
+import Logo from "../utils/Logo";
 import transparency from "../../images/transparency.png";
 
 class HeaderNav extends Component {

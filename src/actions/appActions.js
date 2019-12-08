@@ -6,3 +6,11 @@ export function setXAuthToken(xAuthToken) {
         xAuthToken: xAuthToken
     }
 }
+
+export function getXAuthToken(login, password) {
+    return {
+        type: types.GETXAUTHTOKEN,
+        login: login,
+        password: password
+    }
+}

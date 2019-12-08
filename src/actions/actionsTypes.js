@@ -1,2 +1,3 @@
 // APP
 export const SETXAUTHTOKEN = "SETXAUTHTOKEN";
+export const GETXAUTHTOKEN = "GETXAUTHTOKEN";

@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
-import App from "../App";
-import { conf } from '../config.js';
-import * as appActions from '../actions/appActions';
+import Home from "../../../components/pages/home/Home";
+import { conf } from '../../../config.js';
+import * as appActions from '../../../actions/appActions';
 
 const mapStateToProps = (state) => {
     return {
@@ -14,9 +14,6 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        logout: () => {
-            dispatch(appActions.setXAuthToken(null));
-        },
         getXAuthToken: (login, password) => {
             fetch(`${conf.API_SERVER}/auth-tokens`, {
                 method: 'post',
@@ -34,9 +31,9 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-const AppContainer = connect(
+const HomeContainer = connect(
     mapStateToProps,
     mapDispatchToProps
-)(App);
+)(Home);
 
-export default AppContainer;
+export default HomeContainer;

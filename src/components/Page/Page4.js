@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page4 = () => {
     return(
-        // <!--PAGE 4 : Connexion-->
+        // <!--PAGE 4 : OldConnexion-->
         <section id="page-4" className="page">
             <h2>Connexion</h2>
             <p>Connectez-vous pour voter dès maintenant pour vos films préférés !</p>

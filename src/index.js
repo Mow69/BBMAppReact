@@ -4,15 +4,15 @@ import './components/css/index.css';
 import 'bootstrap';
 import './components/css/styles.css';
 import App from "./App";
-import LoginControl from "./components/Connexion/LoginControl";
-import Greeting from "./components/Connexion/Greeting";
+import LoginControl from "./components/OldConnexion/LoginControl";
+import Greeting from "./components/OldConnexion/Greeting";
 
 import * as serviceWorker from './serviceWorker';
 
 
 import { createStore} from "redux";
 import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/types/integration/react";
+import { PersistGate } from 'redux-persist/integration/react';
 import { persistStore } from "redux-persist";
 import allReducers from "./reducers";
 import AppContainer from "./containers/AppContainer";

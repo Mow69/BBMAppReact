@@ -1,6 +1,6 @@
 import React from 'react';
-import ConnexionForm from "./Connexion/ConnexionForm";
-import InscriptionForm from "./Connexion/InscriptionForm";
+import ConnexionForm from "./OldConnexion/ConnexionForm";
+import InscriptionForm from "./OldConnexion/InscriptionForm";
 
 const Home = () => {
 

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {LoginButton, LogoutButton} from "./LoginButton";
+import {BBMButton} from "../utils/BBMButton";
 import Greeting from "./Greeting";
 
 class LoginControl extends Component {
@@ -23,9 +23,9 @@ class LoginControl extends Component {
         let button;
 
         if (isLoggedIn) {
-            button = <LogoutButton onClick={this.handleLogoutClick} />;
+            button = <BBMButton onClick={this.handleLogoutClick} />;
         } else {
-            button = <LoginButton onClick={this.handleLoginClick} />;
+            button = <BBMButton onClick={this.handleLoginClick} />;
         }
 
         return (

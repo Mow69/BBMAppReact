@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import FooterNav from "./FooterNav";
-import Logo from "./Logo";
+import Logo from "../utils/Logo";
 import facebook from '../../images/ic-facebook.png';
 import pinterest from '../../images/ic-pinterest.png';
 import twitter from '../../images/ic-twitter.png';

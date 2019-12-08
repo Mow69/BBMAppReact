@@ -1,3 +1,3 @@
 export const conf = {
-    API_SERVER: 'localhost:8000'
+    API_SERVER: 'http://localhost:8000'
 }
